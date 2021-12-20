@@ -1,0 +1,7 @@
+tensorflow-gpu==1.15
+sklearn
+openpyxl
+xlutils
+matplotlib
+xlrd
+xlwt
