@@ -130,3 +130,7 @@ dmypy.json
 
 # custom
 .vscode/
+data/
+
+**/*.tar
+**/*.gz
