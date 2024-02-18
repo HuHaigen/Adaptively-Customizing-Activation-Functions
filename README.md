@@ -1,6 +1,6 @@
 # Adaptively Customizing Activation Functions for Various Layers
 
-> **The Paper Links**: [Arxiv](https://arxiv.org/abs/2112.09442).  
+> **The Paper Links**: [IEEE](https://ieeexplore.ieee.org/document/9675813).  
 > **Authors:** [Haigen Hu](), [Aizhu Liu](), [Qiu Guan](), [Xiaoxin Li](), [Shengyong Chen](), [Qianwei Zhou]()
 
 ## Abstract
@@ -35,7 +35,7 @@ $ python main.py
 # Train with optional patameters and test.
 $ python main.py --model_type [LeNet/AlexNet/VGG16/GoogLeNet/ResNet50] \
                  --dataset_dir [Path to cifar-10-batches-py] \
-                 --model_dir [A .ckpt file of pretrained model or A folder for saving model] 
+                 --model_dir [A .ckpt file of pretrained model or A folder for saving model]
 ```
 
 ## Use GPU
@@ -59,16 +59,31 @@ tensorboard --logdir=/logs
 
 Please cite our paper if you find the work useful:
 
-```shell
-@ARTICLE{hu2022adaptively,
-     author={Hu, Haigen and Liu, Aizhu and Guan, Qiu and Qian, Hanwang and Li, Xiaoxin and Chen, Shengyong and Zhou, Qianwei},
-     journal={IEEE Transactions on Neural Networks and Learning Systems}, 
-     title={Adaptively Customizing Activation Functions for Various Layers}, 
-     year={2022},
-     volume={},
-     number={},
-     pages={1-12},
-     doi={10.1109/TNNLS.2021.3133263}
+```
+@ARTICLE{Hu2022Adaptively,
+  author={Hu, Haigen and Liu, Aizhu and Guan, Qiu and Qian, Hanwang and Li, Xiaoxin and Chen, Shengyong and Zhou, Qianwei},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  title={Adaptively Customizing Activation Functions for Various Layers},
+  year={2023},
+  volume={34},
+  number={9},
+  pages={6096-6107},
+  keywords={Neural networks;Training;Shape;Adaptive systems;Mathematical models;Learning systems;Deep learning;Adaptable parameters;adaptive activation function;deep learning;various layers},
+  doi={10.1109/TNNLS.2021.3133263}
+}
+```
+
+```
+@INPROCEEDINGS{Liu2020Exploring,
+  author={Liu, Aizhu and Hu, Haigen and Qiu, Tian and Zhou, Qianwei and Guan, Qiu and Li, Xiaoxin},
+  booktitle={2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  title={Exploring Optimal Adaptive Activation Functions for Various Tasks},
+  year={2020},
+  volume={},
+  number={},
+  pages={2290-2297},
+  keywords={Adaptive systems;Task analysis;Biological neural networks;Convergence;Neurons;Shape;Recurrent neural networks;Activation functions;Adaptable parameters;Various tasks},
+  doi={10.1109/BIBM49941.2020.9313386}
 }
 ```
 
